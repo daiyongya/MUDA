@@ -22,6 +22,9 @@ Our model is divided into two parts. The first part is to get the pre-trained mo
 pre-trained model to get the results of our two transfer learning frameworks.
 
 ## Training Process
+### Training data downlowd
+链接: https://pan.baidu.com/s/1U5GUq99KORj2qYI74oxVZA 提取码: snc4 
+
 
 ### Training Tips: 
 Using Microsoft's open source tuning tool [nni](https://github.com/microsoft/nni), the final result has a fluctuation of ±0.5%
