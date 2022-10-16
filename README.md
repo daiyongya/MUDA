@@ -26,17 +26,11 @@ pre-trained model to get the results of our two transfer learning frameworks.
 链接: https://pan.baidu.com/s/1U5GUq99KORj2qYI74oxVZA 提取码: snc4 
 
 
-### Training Tips: 
+### Training Tips
 Using Microsoft's open source tuning tool [nni](https://github.com/microsoft/nni), the final result has a fluctuation of ±0.5%
 
 ### Before Running
 
-The pre-trained word embeddings file exceeds the 100MB limit of github, and is thus provided as a gzipped tar ball.
-Please run the following command to extract it first:
-
-```
-tar -xvf data/w2v/word2vec.tar.gz -C data/w2v/
-```
 Before starting to run the program, you must set the values of base_save_dir and exp2_model_save_file (exp3_model_save_file) 
 to store the model and parameter files during the training process.
 
